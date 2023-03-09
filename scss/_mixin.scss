@@ -1,0 +1,14 @@
+
+@mixin textobasico{
+    text-decoration: none;
+    font-family: 'Golos Text', sans-serif;
+}
+
+
+.texto-principal{
+    @include textobasico;
+    margin: 20px 0px;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Golos Text', sans-serif;
+}
