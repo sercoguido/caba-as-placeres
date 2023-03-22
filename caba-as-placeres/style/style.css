@@ -1,0 +1,427 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;600;800&family=Noto+Sans:wght@300;400;500;600;800&family=Raleway:wght@100;300;400;500;600;700;800&display=swap");
+header {
+  background-image: url("../img/fondonav.png");
+  filter: drop-shadow(0 0 50px rgb(0, 0, 0));
+  height: 13rem;
+  display: flex;
+}
+
+.logo {
+  transition: all 0.3s;
+  margin-left: 3vw;
+  margin-top: 1rem;
+  height: 135px;
+}
+.logo:hover {
+  transform: scale(1.05);
+}
+
+.contenedordireccionadores {
+  display: inline;
+  margin-left: auto;
+  margin-top: 4vw;
+}
+
+a.nav-link.active.text-white:hover {
+  transform: scale(1.05);
+}
+
+a.nav-link.text-white:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  padding-bottom: 10px;
+  text-align: right;
+}
+ul li {
+  display: inline-block;
+  margin: 0px 30px 0px 0px;
+  font-weight: 400;
+  font-size: 1.3rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.barra-total {
+  width: 100%;
+  height: 80%;
+  margin-right: 2rem;
+}
+
+.imagenInicio {
+  background-image: url("../img/cabaña.png");
+  margin-top: -4rem;
+  width: 100%;
+  height: 590px;
+}
+
+main {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background-color: #C0B298;
+}
+
+.imagenInicio {
+  background-image: url("../img/cabaña.png");
+  margin-top: -4rem;
+  width: 100%;
+  height: 590px;
+}
+
+.imgsServicios {
+  width: 80%;
+  height: 40vw;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.5s ease;
+}
+
+.imgsServicios:hover {
+  transform: scale(1.008);
+}
+
+main {
+  text-align: center;
+}
+
+.contenedor {
+  margin: 3rem 2rem 0vw 2rem;
+  padding: 3rem 4rem 3rem 4rem;
+  width: auto;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.3);
+  background-color: #bbac8f;
+}
+
+.titulo-principal {
+  margin: 20px 0 50px 0;
+  font-weight: 600;
+  color: #4a2708;
+  font-family: "Raleway", sans-serif;
+  font-size: 2rem;
+}
+
+.titulo-secundario {
+  font-size: 30px;
+  font-weight: 400;
+  color: brown;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.texto-secundario {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 8rem;
+}
+
+.cada-servicio {
+  margin-top: 10rem;
+}
+
+.div-formulario {
+  padding: 0 5rem 0 5rem;
+  align-content: center;
+  text-align: center;
+  display: block;
+}
+
+.componenteform {
+  margin-top: 2rem;
+}
+
+.label-nombre {
+  width: 200px;
+}
+
+.botonEnviar {
+  height: 3rem;
+  width: 6rem;
+  font-size: 1.3rem;
+  background-color: aliceblue;
+  margin-top: 2rem;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.imagen-comollego {
+  width: 90%;
+}
+
+.texto-como-llego {
+  margin-top: 2vw;
+  margin-bottom: 0vw;
+}
+
+/* TEMA GALERIA IMÁGENEEEEEEEEES!!!!!!!!!!!!!!*/
+.galeria-principal {
+  width: 100%;
+  height: 40vw;
+  transition: all 0.5s ease;
+  grid-area: imgPrincipal;
+  display: block;
+  margin: auto;
+}
+
+.galeria-secundarios-uno {
+  width: 700px;
+  transition: all 0.5s ease;
+  grid-area: imgSecundario1;
+}
+
+.galeria-secundarios-dos {
+  width: 700px;
+  transition: all 0.5s ease;
+  grid-area: imgSecundario2;
+}
+
+.galeria-secundarios-tres {
+  width: 700px;
+  transition: all 0.5s ease;
+  grid-area: imgSecundario3;
+}
+
+.galeria-secundarios-cuatro {
+  width: 700px;
+  transition: all 0.5s ease;
+  grid-area: imgSecundario4;
+}
+
+.contenedorimagenes {
+  margin: 2vw 5vw 2vw 5vw;
+  width: auto;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas: "imgSecundario1 imgSecundario2" "imgSecundario3 imgSecundario4";
+  grid-column-gap: 0.5vw;
+  grid-row-gap: 0.5vw;
+}
+
+.galeria-principal:hover, .galeria-secundarios-uno:hover, .galeria-secundarios-dos:hover, .galeria-secundarios-tres:hover, .galeria-secundarios-cuatro:hover {
+  transform: scale(1.005);
+}
+
+/* TEMA CARROUSEL!!!!!!!!!!!!!!*/
+.imagenes-carrousel {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.todo-carrousel {
+  width: 100%;
+}
+
+footer {
+  background-image: url("../img/fondofoot.png");
+  padding: 60px;
+  padding-bottom: 2vw;
+}
+
+.iconos-footer {
+  padding: 0.5rem 5rem 0rem 5rem;
+  height: 100%;
+  text-align: center;
+}
+.iconos-footer a {
+  padding: 0rem 2rem 0rem 2rem;
+  transition: all 1s ease;
+}
+
+.iconosInstagram {
+  width: 70px;
+  transition: all 1s ease;
+}
+.iconosInstagram:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+  content: url("../img/ico-instagram-hover.png");
+}
+
+.iconosWhatsapp {
+  width: 70px;
+  transition: all 1s ease;
+}
+.iconosWhatsapp:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+  content: url("../img/ico-whatsapp-hover.png");
+}
+
+.iconosFacebook {
+  width: 70px;
+  transition: all 1s ease;
+}
+.iconosFacebook:hover {
+  transform: scale(1.2);
+  transform: rotate(-10deg);
+  content: url("../img/ico-facebook-hover.png");
+}
+
+.iconosYoutube {
+  width: 70px;
+  transition: all 1s ease;
+}
+.iconosYoutube:hover {
+  transform: scale(1.2);
+  transform: rotate(-10deg);
+  content: url("../img/ico-youtube-hover.png");
+}
+
+.iconos:hover {
+  transform: scale(1.2);
+  transform: rotate(10deg);
+}
+
+.textofooter {
+  color: white;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-family: "Raleway", sans-serif;
+}
+
+.texto-principal {
+  text-decoration: none;
+  font-family: "Golos Text", sans-serif;
+  margin: 20px 0px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Golos Text", sans-serif;
+}
+
+@media screen and (max-width: 1500px) {
+  .galeria-secundarios-uno {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .galeria-secundarios-dos {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .galeria-secundarios-tres {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .galeria-secundarios-cuatro {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+  .contenedorimagenes {
+    margin: 5vw;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    grid-template-areas: "imgSecundario1" "imgSecundario2" "imgSecundario3" "imgSecundario4";
+    grid-column-gap: 0.5vw;
+    grid-row-gap: 0.5vw;
+  }
+  .imagenInicio {
+    background-image: url("../img/cabaña1500.png");
+  }
+}
+@media screen and (max-width: 1100px) {
+  .imagenInicio {
+    background-image: url("../img/cabaña1100.png");
+    margin-top: -4rem;
+    width: 100%;
+    height: 590px;
+  }
+  .imgsServicios {
+    width: 100%;
+    height: 60vw;
+  }
+  .div-formulario {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .logo {
+    display: block;
+    text-align: center;
+    align-items: center;
+  }
+  .logo:hover {
+    transform: none;
+  }
+  .diseñonavico {
+    width: 100%;
+    margin: auto;
+  }
+  .diseñonav {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    margin: 0 auto;
+  }
+  .diseñoII {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 750px) {
+  .contenedor {
+    padding: 3rem 1rem 3rem 1rem;
+  }
+  .iconosInstagram {
+    display: block;
+    margin: 0 auto;
+  }
+  .iconosWhatsapp {
+    display: block;
+    margin: 0 auto;
+  }
+  .iconosFacebook {
+    display: block;
+    margin: 0 auto;
+  }
+  .iconosYoutube {
+    display: block;
+    margin: 0 auto;
+  }
+  footer {
+    background-image: url("../img/fondofoot750.png");
+  }
+  .contenedor {
+    margin: 0rem 1rem 0vw 1rem;
+    width: auto;
+  }
+  .imagen-comollego {
+    width: 95%;
+    height: 100vw;
+  }
+  .botonEnviar {
+    height: 3rem;
+    width: 6rem;
+    font-size: 1.3rem;
+    background-color: aliceblue;
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .imagenInicio {
+    background-image: url("../img/cabaña500.png");
+    margin-top: -4rem;
+    width: 100%;
+    height: 500px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
